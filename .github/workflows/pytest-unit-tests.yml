@@ -32,4 +32,4 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest $TESTS
+        python3 -m pytest $TESTS
